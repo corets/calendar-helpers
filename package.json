@@ -1,5 +1,6 @@
 {
   "name": "@corets/calendar-helpers",
+  "description": "Various helpers related to calendar specific functionality",
   "version": "0.0.1-5",
   "author": "Maxim Kott",
   "license": "MIT",
@@ -14,12 +15,14 @@
     "/dist"
   ],
   "repository": "github:corets/calendar-helpers",
+  "homepage": "https://corets.github.io/calendar-helpers",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "test": "jest",
+    "coverage": "jest --coverage && echo '\nOpen \"coverage/lcov-report/index.html\" in your browser\n'",
     "lint": "tsc --noEmit",
     "format": "prettier --write .",
     "build": "rm -rf dist && microbundle --entry src/index.ts --target web --format cjs,es",
