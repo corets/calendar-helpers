@@ -1,7 +1,7 @@
 {
   "name": "@corets/calendar-helpers",
   "description": "Various helpers related to calendar specific functionality",
-  "version": "0.0.1-5",
+  "version": "0.0.1-6",
   "author": "Maxim Kott",
   "license": "MIT",
   "main": "dist/index.js",
