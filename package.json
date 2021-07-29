@@ -19,7 +19,7 @@
     "/dist"
   ],
   "repository": "github:corets/calendar-helpers",
-  "homepage": "https://corets.github.io/calendar-helpers",
+  "homepage": "https://docs.corets.io/helpers/calendar-helpers",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
